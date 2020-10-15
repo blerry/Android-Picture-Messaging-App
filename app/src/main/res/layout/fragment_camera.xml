@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- surface view will alow use to display what ccamera sees on our screen realtime-->
+       <SurfaceView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/surfaceView"></SurfaceView>
+   <!--Logout button
+    gravity pushes to bottom-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Logout"
+        android:id="@+id/logout"/>
+
+    <Button
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="capture"
+        android:id="@+id/capture"/>
+
+
+</FrameLayout>
